@@ -1,0 +1,87 @@
+.center {
+    margin: auto;
+    width: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20vh;
+ }
+
+.text-center {
+    text-align: center;
+}
+
+.bg-grey {
+    background-color: #272b30;
+    color: #c8c8c8;
+}
+
+.bg-dark-grey {
+    background-color: #1c1e22;
+    color: #c8c8c8;
+}
+
+.yellow {
+    color: #FFE300;
+}
+
+a {
+    text-decoration:none;
+    color: #c8c8c8;
+}
+
+.personCard {
+    width: 150px !important;
+    margin: 7px !important;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.button {
+    width: 200px;
+    background-color: #272b30;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    color: #c8c8c8;
+}
+
+.is-large {
+    font-size: 20px;
+}
+
+.button:hover {
+    color: #FFE300 !important;
+}
+
+ button a:hover {
+    color: #FFE300 !important;
+}
+
+.person {
+    background-color: #272b30;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 15px;
+    color: #c8c8c8;
+    text-align: start;
+    width: 50%;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:hover {
+    background-color: #FFE300;
+    color: #272b30;
+}
+
+.table-width {
+    width: 100%;
+}
